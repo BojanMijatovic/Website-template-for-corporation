@@ -1,0 +1,46 @@
+.services {
+  margin-top: 3em;
+  &__text {
+    &-subtitle {
+      @include subtitle;
+    }
+    &-title {
+      @include title;
+    }
+  }
+  &__list {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    &-item {
+      text-align: center;
+      margin: 1.5rem 0;
+      background-color: #ffffff;
+      padding: 3.5rem;
+    }
+
+    &-title {
+      font-size: 1.5rem;
+      margin-bottom: 0.8rem;
+    }
+
+    &-info {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    &-btn {
+      text-decoration: none;
+      color: $second-color;
+      font-size: 1.2rem;
+      font-weight: 500;
+
+      &:active,
+      &:hover {
+        border-bottom: $second-color 2px solid;
+      }
+    }
+  }
+}

@@ -42,7 +42,8 @@ body {
     .hero__text-subtitle {
       color: #eb5757;
       margin-bottom: 1rem;
-      font-weight: 500; }
+      font-weight: 500;
+      font-size: 1.2rem; }
     .hero__text-title {
       font-weight: 700;
       font-size: 2rem;
@@ -78,7 +79,8 @@ body {
   .start__text-subtitle {
     color: #eb5757;
     margin-bottom: 1rem;
-    font-weight: 500; }
+    font-weight: 500;
+    font-size: 1.2rem; }
   .start__text-title {
     font-weight: 700;
     font-size: 2rem;
@@ -93,5 +95,52 @@ body {
     width: 88vw;
     height: 35vh;
     border-radius: 0.8rem; }
+
+.services {
+  margin-top: 3em; }
+  .services__text-subtitle {
+    color: #eb5757;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem; }
+  .services__text-title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.5rem; }
+  .services__list {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    .services__list-item {
+      text-align: center;
+      margin: 1.5rem 0;
+      background-color: #ffffff;
+      padding: 3.5rem; }
+    .services__list-title {
+      font-size: 1.5rem;
+      margin-bottom: 0.8rem; }
+    .services__list-info {
+      font-size: 1rem;
+      margin-bottom: 2rem; }
+    .services__list-btn {
+      text-decoration: none;
+      color: #eb5757;
+      font-size: 1.2rem;
+      font-weight: 500; }
+      .services__list-btn:active, .services__list-btn:hover {
+        border-bottom: #eb5757 2px solid; }
+
+.career {
+  margin-top: 3rem; }
+  .career__text-subtitle {
+    color: #eb5757;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem; }
+  .career__text-title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.5rem; }
 
 /*# sourceMappingURL=main.css.map */
