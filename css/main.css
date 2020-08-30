@@ -7,4 +7,73 @@ html {
   font-size: 62.5%;
   font-family: 'Montserrat', sans-serif; }
 
+body {
+  background: #f6f6f6; }
+
+.container {
+  padding: 0 2rem; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch; }
+  .header .logo {
+    padding: 0.5rem;
+    display: flex; }
+    .header .logo__img {
+      width: 7vw;
+      height: 4vh; }
+    .header .logo__text {
+      margin: 1rem 0 0 0.5rem;
+      font-size: 1.2rem; }
+  .header .nav {
+    display: none; }
+  .header .nav__btn {
+    padding: 0.5rem; }
+    .header .nav__btn img {
+      width: 7vw;
+      height: 4vh; }
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column; }
+  .hero__text {
+    position: absolute;
+    top: 3rem;
+    left: 3rem; }
+    .hero__text-subtitle {
+      color: #eb5757;
+      margin-bottom: 1rem;
+      font-weight: 500; }
+    .hero__text-title {
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 1.5rem; }
+    .hero__text-info {
+      color: #424242;
+      padding-right: 2.5rem;
+      margin-bottom: 2rem; }
+    .hero__text-btn {
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 500;
+      color: #fff;
+      background-color: #eb5757;
+      padding: 0.8rem;
+      border-radius: 1.8rem;
+      width: 25%;
+      display: inline-block;
+      text-align: center; }
+  .hero__photos {
+    display: none; }
+    .hero__photos-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column; }
+    .hero__photos-img img {
+      width: 100vw;
+      height: 40vh; }
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,58 @@
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &__text {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+
+    &-subtitle {
+      color: $second-color;
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+    &-title {
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    &-info {
+      color: $text-second-color;
+      padding-right: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    &-btn {
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 500;
+      color: #fff;
+      background-color: $second-color;
+      padding: 0.8rem;
+      border-radius: 1.8rem;
+      width: 25%;
+      display: inline-block;
+      text-align: center;
+    }
+  }
+
+  &__photos {
+    display: none;
+    &-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-img {
+      img {
+        width: 100vw;
+        height: 40vh;
+      }
+    }
+  }
+}

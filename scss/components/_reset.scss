@@ -7,3 +7,11 @@ html {
   font-size: 62.5%;
   font-family: 'Montserrat', sans-serif;
 }
+
+body {
+  background: $background-color;
+}
+
+.container {
+  padding: 0 2rem;
+}
