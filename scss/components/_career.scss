@@ -9,4 +9,53 @@
       @include title;
     }
   }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+
+    &-item {
+      background-color: #ffffff;
+      margin: 2rem 0;
+      padding: 2.5rem;
+    }
+
+    &-title {
+      display: flex;
+      justify-content: stretch;
+
+      p {
+        margin-top: 2.5rem;
+        padding-left: 1.5rem;
+        font-size: 1.3rem;
+        font-weight: 500;
+      }
+    }
+
+    &-info {
+      margin-top: 1.5rem;
+      color: $text-second-color;
+      font-size: 1rem;
+    }
+  }
+
+  &__bonuses {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 2rem;
+    background-color: $second-color;
+    padding: 3rem 3rem 2rem;
+    &-title {
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 1.5rem;
+
+      span {
+        font-weight: 400;
+      }
+    }
+    img {
+      justify-self: center;
+    }
+  }
 }

@@ -142,5 +142,50 @@ body {
     font-weight: 700;
     font-size: 2rem;
     margin-bottom: 1.5rem; }
+  .career__list {
+    list-style: none;
+    padding: 0; }
+    .career__list-item {
+      background-color: #ffffff;
+      margin: 2rem 0;
+      padding: 2.5rem; }
+    .career__list-title {
+      display: flex;
+      justify-content: stretch; }
+      .career__list-title p {
+        margin-top: 2.5rem;
+        padding-left: 1.5rem;
+        font-size: 1.3rem;
+        font-weight: 500; }
+    .career__list-info {
+      margin-top: 1.5rem;
+      color: #424242;
+      font-size: 1rem; }
+  .career__bonuses {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 2rem;
+    background-color: #eb5757;
+    padding: 3rem 3rem 2rem; }
+    .career__bonuses-title {
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 1.5rem; }
+      .career__bonuses-title span {
+        font-weight: 400; }
+    .career__bonuses img {
+      justify-self: center; }
+
+.partners {
+  margin-top: 3rem; }
+  .partners__text-subtitle {
+    color: #eb5757;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem; }
+  .partners__text-title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.5rem; }
 
 /*# sourceMappingURL=main.css.map */
