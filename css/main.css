@@ -35,13 +35,10 @@ body {
       height: 4vh; }
 
 .hero {
-  position: relative;
   display: flex;
   flex-direction: column; }
   .hero__text {
-    position: absolute;
-    top: 3rem;
-    left: 3rem; }
+    margin: 3rem 0 2rem 2rem; }
     .hero__text-subtitle {
       color: #eb5757;
       margin-bottom: 1rem;
@@ -74,6 +71,27 @@ body {
       flex-direction: column; }
     .hero__photos-img img {
       width: 100vw;
-      height: 40vh; }
+      height: 35vh; }
+
+.start {
+  margin-top: 3rem; }
+  .start__text-subtitle {
+    color: #eb5757;
+    margin-bottom: 1rem;
+    font-weight: 500; }
+  .start__text-title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.5rem; }
+  .start__text-info {
+    color: #424242;
+    padding-right: 2.5rem;
+    margin-bottom: 2rem; }
+    .start__text-info span {
+      color: #eb5757; }
+  .start__photo img {
+    width: 88vw;
+    height: 35vh;
+    border-radius: 0.8rem; }
 
 /*# sourceMappingURL=main.css.map */

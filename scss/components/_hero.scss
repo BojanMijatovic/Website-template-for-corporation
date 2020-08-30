@@ -1,28 +1,19 @@
 .hero {
-  position: relative;
   display: flex;
   flex-direction: column;
 
   &__text {
-    position: absolute;
-    top: 3rem;
-    left: 3rem;
+    margin: 3rem 0 2rem 2rem;
 
     &-subtitle {
-      color: $second-color;
-      margin-bottom: 1rem;
-      font-weight: 500;
+      @include subtitle;
     }
     &-title {
-      font-weight: 700;
-      font-size: 2rem;
-      margin-bottom: 1.5rem;
+      @include title;
     }
 
     &-info {
-      color: $text-second-color;
-      padding-right: 2.5rem;
-      margin-bottom: 2rem;
+      @include info;
     }
 
     &-btn {
@@ -51,7 +42,7 @@
     &-img {
       img {
         width: 100vw;
-        height: 40vh;
+        height: 35vh;
       }
     }
   }

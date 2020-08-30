@@ -4,3 +4,22 @@ $text-color: #333333;
 $text-second-color: #424242;
 $background-color: #f6f6f6;
 $second-color: #eb5757;
+
+//  mixin
+@mixin subtitle {
+  color: $second-color;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+@mixin title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+@mixin info {
+  color: $text-second-color;
+  padding-right: 2.5rem;
+  margin-bottom: 2rem;
+}

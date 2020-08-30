@@ -1,0 +1,26 @@
+.start {
+  margin-top: 3rem;
+  &__text {
+    &-subtitle {
+      @include subtitle;
+    }
+    &-title {
+      @include title;
+    }
+
+    &-info {
+      @include info;
+      span {
+        color: $second-color;
+      }
+    }
+  }
+
+  &__photo {
+    img {
+      width: 88vw;
+      height: 35vh;
+      border-radius: 0.8rem;
+    }
+  }
+}
