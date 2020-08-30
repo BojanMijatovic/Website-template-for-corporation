@@ -187,5 +187,14 @@ body {
     font-weight: 700;
     font-size: 2rem;
     margin-bottom: 1.5rem; }
+  .partners__list {
+    margin: 2rem 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center; }
+    .partners__list-item {
+      margin: 1.5rem 0; }
 
 /*# sourceMappingURL=main.css.map */

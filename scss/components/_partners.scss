@@ -8,4 +8,17 @@
       @include title;
     }
   }
+
+  &__list {
+    margin: 2rem 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+
+    &-item {
+      margin: 1.5rem 0;
+    }
+  }
 }
