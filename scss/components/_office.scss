@@ -1,0 +1,28 @@
+.office {
+  margin-top: 3rem;
+  &__text {
+    &-subtitle {
+      @include subtitle;
+    }
+    &-title {
+      @include title;
+    }
+    &-info {
+      @include info;
+    }
+  }
+
+  &__list {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    list-style: none;
+    &-item {
+      margin: 0.5rem 0;
+      img {
+        width: 90vw;
+        height: 35vh;
+      }
+    }
+  }
+}

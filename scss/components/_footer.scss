@@ -1,0 +1,57 @@
+.footer {
+  margin-top: 3rem;
+  &__links {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    list-style: none;
+    justify-items: center;
+    padding: 0;
+    margin-bottom: 2rem;
+    &-item {
+      margin: 0.5rem;
+      a {
+        text-decoration: none;
+        color: $text-second-color;
+        font-weight: 500;
+        font-size: 1.2rem;
+
+        &:active,
+        &:hover {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  &__contact {
+    display: grid;
+    list-style: none;
+    justify-items: center;
+    padding: 0;
+
+    &-info {
+      margin: 1rem 0;
+      color: $text-second-color;
+      font-weight: 500;
+      h4 {
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+
+  &__connect {
+    padding: 0 4rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    &-icon {
+      padding: 1rem 0;
+      img {
+        width: 9vw;
+        height: 5vh;
+        cursor: pointer;
+      }
+    }
+  }
+}
