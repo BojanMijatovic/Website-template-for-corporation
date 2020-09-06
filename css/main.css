@@ -28,11 +28,20 @@ body {
       font-size: 1.2rem; }
   .header .nav {
     display: none; }
+    .header .nav__list {
+      list-style: none;
+      padding: 0; }
+      .header .nav__list-item {
+        margin: 2rem 0; }
+        .header .nav__list-item a {
+          text-decoration: none;
+          color: #333333; }
   .header .nav__btn {
     padding: 0.5rem; }
     .header .nav__btn img {
       width: 7vw;
-      height: 4vh; }
+      height: 4vh;
+      cursor: pointer; }
 
 .hero {
   display: flex;
@@ -192,7 +201,7 @@ body {
     padding: 0;
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center; }
     .partners__list-item {
       margin: 1.5rem 0; }
@@ -273,8 +282,8 @@ body {
     .contact__form-input {
       border: none;
       border-bottom: 1px solid #424242; }
-      .contact__form-input:active {
-        border: none; }
+      .contact__form-input:active, .contact__form-input:focus {
+        outline: none; }
     .contact__form-btn {
       text-decoration: none;
       font-size: 1rem;
@@ -316,7 +325,8 @@ body {
       color: #424242;
       font-weight: 500; }
       .footer__contact-info h4 {
-        padding-bottom: 0.5rem; }
+        padding-bottom: 0.5rem;
+        text-align: center; }
   .footer__connect {
     padding: 0 4rem;
     list-style: none;
@@ -329,5 +339,8 @@ body {
         width: 9vw;
         height: 5vh;
         cursor: pointer; }
+  .footer p {
+    padding-top: 1rem;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

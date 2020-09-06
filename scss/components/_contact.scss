@@ -31,8 +31,9 @@
       border: none;
       border-bottom: 1px solid $text-second-color;
 
-      &:active {
-        border: none;
+      &:active,
+      &:focus {
+        outline: none;
       }
     }
 

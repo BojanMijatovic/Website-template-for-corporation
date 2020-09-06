@@ -19,6 +19,19 @@
 
   .nav {
     display: none;
+
+    &__list {
+      list-style: none;
+      padding: 0;
+
+      &-item {
+        margin: 2rem 0;
+        a {
+          text-decoration: none;
+          color: $text-color;
+        }
+      }
+    }
   }
 
   .nav__btn {
@@ -26,6 +39,7 @@
     img {
       width: 7vw;
       height: 4vh;
+      cursor: pointer;
     }
   }
 }
